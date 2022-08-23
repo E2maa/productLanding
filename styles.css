@@ -1,0 +1,50 @@
+body{
+  font-family: montserrat, sans-serif;
+  margin: 8vmin;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+}
+
+#header-img{
+  width: 48px;
+
+
+padding-right: 4vmin;
+}
+#Company-Logo{
+  display: flex;
+  align-items: flex-start;
+}
+video, img{
+ padding-top: 4vmin;
+ padding-bottom: 16vmin;
+  width: 80vw;
+  max-width: 600px;
+}
+#form{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 8em;
+}
+nav{
+  position: fixed;
+  top: 2vmin;
+  background-color: #8bcfff;
+}
+@media screen and (min-width:720px ){
+  #Company-Logo{
+    align-items: center;
+  }
+  #header-img{
+    width: 15vmin;
+  }
+  h1{
+    font-size: 15vmin;
+    
+  }
+  #Company-Name{
+    font-size: 20vmin;
+  }
+}
